@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Amazon Suite">
+    <parameter name="URL" value="https://www.amazon.com/"/>
+    <parameter name="timeOutSeconds" value="10"/>
+
+    <test name="SearchTest">
+        <parameter name = "productNameTitle" value="A Practitioner's Guide to Software Test Design"/>
+        <parameter name = "searchText" value="Software Test Design"/>
+        <classes>
+            <class name="SearchTest"></class>
+        </classes>
+    </test>
+</suite>
